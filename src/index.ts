@@ -84,6 +84,8 @@ function registerSupportedDevices() {
     ['E1525/E1745', 'TRADFRI motion sensor'],
     IkeaMotionSensor
   );
+
+  registerAccessoryClass('Xiaomi', ['ZNCZ04LM'], IkeaTadfriOutlet);
   registerAccessoryClass('Xiaomi', ['WSDCGQ01LM', 'WSDCGQ11LM'], TempHumiSensor);
   registerAccessoryClass(
     'Xiaomi',
